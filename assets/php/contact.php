@@ -7,7 +7,7 @@
 //
 
   // your email address
-  $EMAIL   = 'email@example.com';
+  $EMAIL   = 'info@pixel-riligion.com';
 
   // your name
   $NAME    = 'Your Name';

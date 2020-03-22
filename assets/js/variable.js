@@ -8,7 +8,7 @@
 // ============================================ //
 
 // true, false - enable / disable countdown
-var _countdown =                                  true;
+var _countdown =                                  false;
 
 // 2018[year] - 12[month] - 01[day] - countdown date
 var _countdown_date =                             [2020, 03, 20];

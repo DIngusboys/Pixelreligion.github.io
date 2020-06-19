@@ -1374,6 +1374,10 @@ i.media-media {
   background-image: url(../img/bg/service.jpg);
 }
 
+.is-each.service-in .site-bg__img {
+  background-image: url(../img/bg/teampage.jpg);
+}
+
 .is-each.portfolio-in .site-bg__img {
   background-image: url(../img/bg/portfolio.jpg);
 }

@@ -11,7 +11,7 @@
 var _countdown =                                  false;
 
 // 2018[year] - 12[month] - 01[day] - countdown date
-var _countdown_date =                             [2020, 03, 20];
+var _countdown_date =                             [2022, 03, 20];
 
 // true, false - enable / disable utc time
 var _countdown_utc =                              false;
@@ -69,7 +69,7 @@ var _site_bg_overlay_color =                      'rgba(0, 0, 0, 0.5)';
 // 13 = youtube video (video audio)
 // 14 = youtube video  + mp3
 //
-var _bg_style_desktop =                           1
+var _bg_style_desktop =                           3
 
 // ============================================ //
 // MOBILE/TABLE VARIANT                         //
@@ -104,7 +104,7 @@ var _bg_slideshow_duration =                      9000;
 // ============================================ //
 
 // https://www.youtube.com/watch?v=ZBVZAeGHIv8 - youtube video url id
-var _bg_video_youtube_url =                       'ZBVZAeGHIv8';
+var _bg_video_youtube_url =                       '';
 
 // hightres, hd1080, hd720, default - youtube video quality
 var _bg_video_youtube_quality =                   'hightres';
@@ -116,7 +116,7 @@ var _bg_video_youtube_start =                     0;
 var _bg_video_youtube_end =                       0;
 
 // true, false - youtube video loop
-var _bg_video_youtube_loop =                      true;
+var _bg_video_youtube_loop =                      false;
 
 // ============================================ //
 // Cloud / Parallax star / Star / bubble /      //
@@ -131,10 +131,10 @@ var _bg_video_youtube_loop =                      true;
 // 5 = snow
 // 6 = particles
 //
-var _bg_effect =                                  0;
+var _bg_effect =                                  2;
 
 // true, false - enable parallax effect on above aniamtion, its force disable on mobile, and not work with outdated browser
-var _bg_animation_parallax =                      false;
+var _bg_animation_parallax =                      true;
 
 // number - bg animation parallax depth
 var _bg_animation_parallax_depth =                0.30;

@@ -19,6 +19,7 @@
   <link rel='stylesheet' href='assets/css/custom.css'>            <!-- custom style should place in this file -->
   <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
   <!--[if lte IE 9]><!-->
   <script src='assets/js/vendor/html5shiv.min.js'></script>
   <!--<![endif]-->
@@ -64,7 +65,7 @@
     <header class="site-header">
       <div class="container">
         <div class="site-header__logo">
-          <a href="#">
+          <a href="#" data-link="#home">
             <img src="assets/img/site-header-logo.png" alt="logo">
           </a>
         </div> <!-- .site-header__logo -->
@@ -101,10 +102,10 @@
                     data-animation-out="fadeOutDown2"
                     data-animation-out-delay="700">
                     <h1 class="section__title">
-                      <img src="https://i.imgur.com/xcr5cd5.png" class="img-responsive">
+                      <img src="https://i.imgur.com/TEPiV0X.png" class="img-responsive">
                        <span class="color"></span>
                     </h1>
-                      <p class="section__caption">Gaming is our religion</p>
+                      <p class="section__caption"></p>
                     </div>
                   </div>
                   <div class="overflow-hidden">
@@ -150,14 +151,16 @@
                     data-animation-out-delay="100">
                       <div class="btn-wrap">
 
-                        <a class="btn btn-theme btn-icon btn-pill" href="https://discord.gg/cCkaHYNEYC">
-                          <i class="ion-android-share"></i>Discord
+                        <a class="btn btn-theme btn-icon btn-icon" href="https://discord.gg/cCkaHYNEYC">
+                          <i><ion-icon name="logo-amazon"></ion-icon></i> Discord
 
-                        <a class="btn btn-base btn-icon btn-pill" href="#" data-link="#about">
-                          <i class="ion-android-hangout"></i>More Info
 
-                          <a class="btn btn-theme btn-icon btn-pill" href="#" data-link="#service">
-                            <i class="ion-android-share"></i>Our Team
+                        <a class="btn btn-base btn-icon btn-icon" href="#" data-link="#about">
+                          <i> <ion-icon name="information-circle"></ion-icon></ion-icon></i>More Info
+
+                        <a class="btn btn-theme btn-icon btn-icon" href="#" data-link="#service">
+                          <i> <ion-icon name="people-circle"></ion-icon></i>Our Team
+
                         </a>
                       </div>
                     </div>
@@ -325,7 +328,7 @@
                         <a href="https://twitter.com/Ragingterror"><ion-icon name="logo-Twitter" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">Ragingterror</h3>
-                      <p class="carousel__item-content"> Ragingterror was our first content creator, and partnered streamer. Check out his channel above with his great content! </p>
+                      <p class="carousel__item-content"> Ragingterror was our first content creator and partnered streamer. Check out his channel, and content, above! </p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -351,7 +354,7 @@
                         <a href="https://www.youtube.com/channel/UCjQzmZE-M6vUjXsbnygrqDw"><ion-icon name="logo-youtube" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">Perkil8n</h3>
-                      <p class="carousel__item-content">Perkil8n or Perk. Everyone's favorite character. Loves to nerd out, make jokes, and talk about life with all. Ask him anything hes and open book.  </p>
+                      <p class="carousel__item-content">Perkil8n or Perk. Everyone’s favorite character, Loves to nerd out, make jokes, and talk about life with all. Ask him anything! He’s an open book.  </p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -364,7 +367,7 @@
                         <a href="https://twitter.com/internet_mother"><ion-icon name="logo-twitter" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">Internet Mother</h3>
-                      <p class="carousel__item-content">My name is aries, lvl 23 and a verity streamer, making sure you leave my stream Vibin an  smiling.</p>
+                      <p class="carousel__item-content">InternetMother, or Aries, is a lvl 23 variety streamer making sure you leave her streams vibing and smiling.</p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -392,7 +395,8 @@
                         <a href=" https://www.instagram.com/superbeavers1/"><ion-icon name="logo-instagram" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">SuperBeavers</h3>
-                      <p class="carousel__item-content">SuperBeavers is our social media manger and your local soup addict, legend has it he was actually born in a soup can. Is that true? That's for you to decide. You can usually find him playing either Apex Legends or Rocket League.  </p>
+                      <p class="carousel__item-content">SuperBeavers is our social media manager and local soup addict. Legend has it, he was actually born in a soup can. Is that true?
+                        That’s for you to decide. You can usually find him playing either Apex Legends or Rocket League.  </p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -403,7 +407,7 @@
                     <div class="carousel__item-media">
                     </div>
                       <h3 class="carousel__item-title">Peak</h3>
-                      <p class="carousel__item-content">Peak is a wholesome guy who loves videos games and our Cleric.   </p>
+                      <p class="carousel__item-content">Peak is our Cleric. A wholesome guy who loves video games.  </p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -427,7 +431,8 @@
                         <a href="https://twitter.com/boolletz"><ion-icon name="logo-twitter" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">Boolletz</h3>
-                      <p class="carousel__item-content">Boolletz is one of our social media manager for TikTok. He is a Venezuelan 22 year old gamer that likes to stream on twitch on his free time. You can find him playing Dauntless, Rocket League or Dying Light 2 when it is released.</p>
+                      <p class="carousel__item-content">Boolletz is one of our social media managers for TikTok. He’s a 22-year-old Venezuelan gamer who streams in his free time.
+                        You can find him playing Dauntless, Rocket League, or Dying Light 2.</p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -440,7 +445,9 @@
                         <a href="https://twitter.com/TaterRagin"><ion-icon name="logo-twitter" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">RaginTater</h3>
-                      <p class="carousel__item-content">Gbrown AKA RaginTater is a lifelong gamer with a passion for the industry.  He’s an experienced entrepreneur and has a bachelors in marketing and masters in innovation from Penn State University. Taters mainly an FPS player but also enjoys games that require puzzle solving, critical thinking, and strategy.  </p>
+                      <p class="carousel__item-content">Gbrown, AKA RagingTater, is a lifelong gamer with a passion for the industry and is a co-owner of Pixel Religion.
+                        He’s an experienced entrepreneur with a Bachelor’s in Marketing and a Master’s in Innovation from Penn State University. Taters is mainly an FPS player,
+                        but also enjoys games requiring puzzle solving, critical thinking, and strategy.  </p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -453,7 +460,8 @@
                         <a href="https://www.instagram.com/mokitoby_art/?hl=en"><ion-icon name="logo-instagram" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">Mokitoby</h3>
-                      <p class="carousel__item-content">Hi, my name is Mokitoby, i'm 19 years old and i live in Portugal. I've been working with 3D software and Editing for over 8 years. Listening to music inspires me at another level. I love a good game with friends.</p>
+                      <p class="carousel__item-content">Mokitoby is a 19-year-old living in Portugal. He’s been working with 3D software and editing for over 8 years.
+                        When working, music is his greatest inspiration. In his free time. He loves to play games with his friends.</p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -465,7 +473,8 @@
                         <a href="https://twitter.com/drago816322"><ion-icon name="logo-twitter" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">Drago81632</h3>
-                      <p class="carousel__item-content">8 year Marine Corps Veteran 2008-2016 that did 2 overseas tours. Went on to get a bachelors degree in computer information systems with a focus on cybersecurity. Avid gamer that does backend support for Pixel Religion.</p>
+                      <p class="carousel__item-content">Drado81632 is an 8 yr Marine Corps Veteran, 2008 to 2016, who did 2 overseas tours.
+                        He went on to get a Bachelor's degree in Computer Information Systems with a focus in Cybersecurity. He’s an avid gamer that does backend support for Pixel Religion.</p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -476,7 +485,8 @@
                     <div class="carousel__item-media">
                     </div>
                       <h3 class="carousel__item-title">Revy</h3>
-                      <p class="carousel__item-content">I am a mod for the Pixel Religion server, I am almost always active through discord and try to do my best with helping out around peoples servers, I also enjoy games like Apex, R6, rust, and MH  </p>
+                      <p class="carousel__item-content">Revy is a loyal MOD for the Pixel Religion Discord server.
+                        They are consistently active in helping everyone and can be seen playing a variety of games including Apex Legends, Rainbow Six Siege, Rust, and Monster Hunter.  </p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -489,7 +499,9 @@
                         <a href="https://www.instagram.com/vanaroseart/?hl=en"><ion-icon name="logo-instagram" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">vanaroseart</h3>
-                      <p class="carousel__item-content"> </p>
+                      <p class="carousel__item-content">Vana is your local coffee addict, artist, and musician. A shy, introverted, streamer with a questionable kpop obsession and short attention span.
+                         In most streams, you'll catch her being artsy or playing fun little games with friends. In her off time, she is often spotted playing Destiny 2 with her mods
+                         or sitting huddled in a corner watching the latest kdrama till dawn. </p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -516,7 +528,9 @@
                         <a href="https://www.youtube.com/channel/UCGMM4S8Bja3fMJNRQ1uUN0A?view_as=subscriber"><ion-icon name="logo-youtube" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">FOX</h3>
-                      <p class="carousel__item-content">F0X is a competitive Rainbow Six Siege player, he has been playing competitively for more than 2 years.  F0X has been creating content for multiple years, consisting of streaming and uploading R6 montages onto YouTube.  F0X aims towards PL for R6 once he comes to the rightful age, while he may not be at the age for PL he still practices and grinds as much as he possibly can so that dream can come to life.</p>
+                      <p class="carousel__item-content">FoX is a competitive Rainbow Six Siege player. He has been playing competitively for more than 2 years and creating content, on
+                        YouTube and Twitch, for multiple years. He is aiming to play R6 Professionally in the future when he ages into it. While he cannot play professionally now,
+                        he still practices as much as he can so that his dream can come to life.</p>
                     </li> <!-- .carousel__item -->
 
                     <li class="carousel__item"
@@ -530,7 +544,8 @@
                         <a href="https://twitter.com/ArchersWorld"><ion-icon name="logo-Twitter" size= "large"></a>
                     </div>
                       <h3 class="carousel__item-title">ArchersWorld</h3>
-                      <p class="carousel__item-content">Archer is an Army Veteran Cavalry Scout, and part owner of Pixel Religion. Has been playing PC shooters since CounterStrike 1.6. First shooter was golden eye. Welcome to a taste of his world enjoy.</p>
+                      <p class="carousel__item-content">Archer is an Army Veteran and majority share holder of Pixel Religion. Archer has been playing PC shooter games since CounterStrike 1.6
+                        and GoldenEye 007. Welcome to a taste of his world. Enjoy!</p>
                     </li> <!-- .carousel__item -->
 
 
